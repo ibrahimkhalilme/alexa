@@ -185,32 +185,32 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $('.navbar-1 ul .nav-link-1').click(function(){
-        $('.navbar-1 ul li .nav-link-1').addClass("add-class");
+        $(this).addClass("add-class");
         $('.navbar-1 ul li .nav-link-2, .navbar-1 ul li .nav-link-3, .navbar-1 ul li .nav-link-4, .navbar-1 ul li .nav-link-5, .navbar-1 ul li .nav-link-6').removeClass("add-class");
     });
 
     $('.navbar-1 ul .nav-link-2').click(function(){
-        $('.navbar-1 ul li .nav-link-2').addClass("add-class");
+        $(this).addClass("add-class");
         $('.navbar-1 ul li .nav-link-1, .navbar-1 ul li .nav-link-3, .navbar-1 ul li .nav-link-4, .navbar-1 ul li .nav-link-5, .navbar-1 ul li .nav-link-6').removeClass("add-class");
     });
 
     $('.navbar-1 ul .nav-link-3').click(function(){
-        $('.navbar-1 ul li .nav-link-3').addClass("add-class");
+        $(this).addClass("add-class");
         $('.navbar-1 ul li .nav-link-1, .navbar-1 ul li .nav-link-2, .navbar-1 ul li .nav-link-4, .navbar-1 ul li .nav-link-5, .navbar-1 ul li .nav-link-6').removeClass("add-class");
     });
 
     $('.navbar-1 ul .nav-link-4').click(function(){
-        $('.navbar-1 ul li .nav-link-4').addClass("add-class");
+        $(this).addClass("add-class");
         $('.navbar-1 ul li .nav-link-1, .navbar-1 ul li .nav-link-2, .navbar-1 ul li .nav-link-3, .navbar-1 ul li .nav-link-5, .navbar-1 ul li .nav-link-6').removeClass("add-class");
     });
 
     $('.navbar-1 ul .nav-link-5').click(function(){
-        $('.navbar-1 ul li .nav-link-5').addClass("add-class");
+        $(this).addClass("add-class");
         $('.navbar-1 ul li .nav-link-1, .navbar-1 ul li .nav-link-2, .navbar-1 ul li .nav-link-3, .navbar-1 ul li .nav-link-4, .navbar-1 ul li .nav-link-6').removeClass("add-class");
     });
 
     $('.navbar-1 ul .nav-link-6').click(function(){
-        $('.navbar-1 ul li .nav-link-6').addClass("add-class");
+        $(this).addClass("add-class");
         $('.navbar-1 ul li .nav-link-1, .navbar-1 ul li .nav-link-2, .navbar-1 ul li .nav-link-3, .navbar-1 ul li .nav-link-4, .navbar-1 ul li .nav-link-5').removeClass("add-class");
     });
 });
